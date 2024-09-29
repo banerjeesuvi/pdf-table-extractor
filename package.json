@@ -1,0 +1,37 @@
+{
+  "name": "pdf-table-extractor",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbo",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@radix-ui/react-dropdown-menu": "^2.1.1",
+    "@tanstack/react-table": "^8.20.5",
+    "@types/pdf-parse": "^1.1.4",
+    "ai": "^3.4.7",
+    "lucide-react": "^0.446.0",
+    "next": "15.0.0-canary.172",
+    "openai": "^4.65.0",
+    "pdf-parse": "^1.1.1",
+    "pdf2json": "^3.1.4",
+    "primeicons": "^7.0.0",
+    "primereact": "^10.8.3",
+    "react": "19.0.0-rc-3edc000d-20240926",
+    "react-dom": "19.0.0-rc-3edc000d-20240926",
+    "tailwindcss-animate": "^1.0.7"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "eslint": "^8",
+    "eslint-config-next": "15.0.0-canary.172",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5"
+  }
+}
